@@ -9,6 +9,6 @@ function nameToAttributes(list) {
   return list.map(function(item) {
     const firstName = item.split(" ")[0];
     const lastName = item.split(" ")[1];
-    return {first: firstName, last: lastName};
+    return {firstName: firstName, lastName: lastName};
   });
 }
