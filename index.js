@@ -5,3 +5,6 @@ function lowerCaseDrivers(list) {
     return item.toLowerCase();
   });
 }
+function nameToAttributes(list) {
+
+}
