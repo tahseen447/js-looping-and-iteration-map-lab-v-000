@@ -13,4 +13,4 @@ function nameToAttributes(list) {
   });
 }
 
-function attributesToPhrase()
+function attributesToPhrase(list) {}
