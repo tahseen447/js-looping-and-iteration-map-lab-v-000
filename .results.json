@@ -1,0 +1,116 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 6,
+    "passes": 6,
+    "pending": 0,
+    "failures": 1,
+    "start": "2018-11-10T22:48:45.155Z",
+    "end": "2018-11-10T22:48:45.689Z",
+    "duration": 534
+  },
+  "tests": [
+    {
+      "title": "uses the Array map method",
+      "fullTitle": "index.js lowerCaseDrivers() uses the Array map method",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns all drivers lowercased",
+      "fullTitle": "index.js lowerCaseDrivers() returns all drivers lowercased",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not modify the original array",
+      "fullTitle": "index.js lowerCaseDrivers() does not modify the original array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "uses the Array map method",
+      "fullTitle": "index.js nameToAttributes() uses the Array map method",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns list of objects with appropriate first and last names",
+      "fullTitle": "index.js nameToAttributes() returns list of objects with appropriate first and last names",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "uses the Array map method",
+      "fullTitle": "index.js attributesToPhrase() uses the Array map method",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "converts to list saying the name and where each individual is from",
+      "fullTitle": "index.js attributesToPhrase() converts to list saying the name and where each individual is from",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected [ Array(5) ] to deeply equal [ Array(5) ]",
+        "showDiff": true,
+        "actual": "[\n  \"$item.name is from $item.hometown\"\n  \"$item.name is from $item.hometown\"\n  \"$item.name is from $item.hometown\"\n  \"$item.name is from $item.hometown\"\n  \"$item.name is from $item.hometown\"\n]",
+        "expected": "[\n  \"Bobby is from Pittsburgh\"\n  \"Sammy is from New York\"\n  \"Sally is from Cleveland\"\n  \"Annette is from Los Angeles\"\n  \"Bobby is from Tampa Bay\"\n]",
+        "stack": "AssertionError: expected [ Array(5) ] to deeply equal [ Array(5) ]\n    at Context.it (test/indexTest.js:126:46)"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "uses the Array map method",
+      "fullTitle": "index.js lowerCaseDrivers() uses the Array map method",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns all drivers lowercased",
+      "fullTitle": "index.js lowerCaseDrivers() returns all drivers lowercased",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not modify the original array",
+      "fullTitle": "index.js lowerCaseDrivers() does not modify the original array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "uses the Array map method",
+      "fullTitle": "index.js nameToAttributes() uses the Array map method",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns list of objects with appropriate first and last names",
+      "fullTitle": "index.js nameToAttributes() returns list of objects with appropriate first and last names",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "uses the Array map method",
+      "fullTitle": "index.js attributesToPhrase() uses the Array map method",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
