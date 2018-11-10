@@ -15,6 +15,6 @@ function nameToAttributes(list) {
 
 function attributesToPhrase(list) {
   return list.map(function(item) {
-    return `$item.name is from item.hometown`
+    return `$item.name is from $item.hometown`
   });
 }
