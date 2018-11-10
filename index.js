@@ -13,4 +13,8 @@ function nameToAttributes(list) {
   });
 }
 
-function attributesToPhrase(list) {}
+function attributesToPhrase(list) {
+  return list.map(function(item) {
+    
+  })
+}
