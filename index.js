@@ -12,3 +12,5 @@ function nameToAttributes(list) {
     return {firstName: first, lastName: last};
   });
 }
+
+function attributesToPhrase()
