@@ -6,5 +6,5 @@ function lowerCaseDrivers(list) {
   });
 }
 function nameToAttributes(list) {
-
+  return list.map(function(item))
 }
